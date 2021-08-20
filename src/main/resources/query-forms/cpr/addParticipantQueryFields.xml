@@ -1,11 +1,18 @@
-<foreignKey>PARTICIPANT_ID</foreignKey>          <!-- Participant foreign key in custom table -->
-<parentKey>PARTICIPANT_ID</parentKey>
-<table>ADD_NEW_QUERY_FIELDS</table> 
 <row>
-<numberField>
-       <name>AGE</name>
-       <udn>AGE</udn>
-       <caption>Age</caption>
-       <column>AGE</column>  
-</numberField> 
+<subForm>
+        <name>AddCprFields</name> <!-- unique name within form -->
+        <udn>AddCprFields</udn>
+        <caption>Add Cpr Fields</caption>
+		<foreignKey>PARTICIPANT_ID</foreignKey>   <!-- Participant foreign key in custom table -->
+		<parentKey>CPR_ID</parentKey>
+		<table>ADD_NEW_QUERY_FIELDS</table> 
+	<row>
+		<numberField>
+       		<name>NEW_AGE</name>
+       		<udn>NEW_AGE</udn>
+       		<caption>Age</caption>
+       		<column>AGE</column>  
+		</numberField> 
+	</row>
+	</subForm>
 </row>
