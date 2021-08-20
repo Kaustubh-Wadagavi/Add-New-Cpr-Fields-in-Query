@@ -1,0 +1,10 @@
+<table>ADD_NEW_QUERY_FIELDS</table> 
+<parentKey>PARTICIPANT_ID</parentKey>
+<row>
+<numberField>
+       <name>AGE</name>
+       <udn>AGE</udn>
+       <caption>Age</caption>
+       <column>AGE</column>  
+</numberField> 
+</row>
