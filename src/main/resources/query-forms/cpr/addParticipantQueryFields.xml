@@ -1,5 +1,5 @@
-<foreignKey>PARTICIPANT_ID</foreignKey>          <!-- visit foreign key in custom table -->
-<parentKey>IDENTIFIER</parentKey>
+<foreignKey>PARTICIPANT_ID</foreignKey>          <!-- Participant foreign key in custom table -->
+<parentKey>PARTICIPANT_ID</parentKey>
 <table>ADD_NEW_QUERY_FIELDS</table> 
 <row>
 <numberField>
